@@ -1,0 +1,43 @@
+*{
+	margin: 0px ;
+	padding: 0px;
+	font-family: monospace;
+	font-size: 37px;
+}
+
+.calc{
+	display: block;
+	width: 403px;
+	background-color: black;
+	margin: 50px auto;
+	border: none;
+	border-radius: 8px;
+}
+
+.cal-form{
+	width: 100%;
+	border: none;
+}
+.cal-form .calc-input{
+	width: 100%;
+	height: 75px;
+	background-color: #a2af77;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 10px 0px;
+
+}
+
+
+
+input[type=button]
+{
+	width: 90px ;
+	height: 90px;
+	display: inline-block;
+	margin: 4px;
+	color: white;
+	background-color: #111;
+}
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery calculetor</title>
+	<!-- fa -->
+	<link rel="stylesheet" href="assets/js/font aw/css/all.css">
+	<!-- js -->
+	<script src="assets/js/cal.js"></script>
+	<!-- css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+	<div class="calc">
+		<form class="cal-form">
+			<input type="text" class="calc-input">
+		</form>
+
+		<table>
+			<tr>
+				<td><input
+					type="button" style="background-color: red; color: white; border-color: red;" value="Ac" onclick="del()"></td>
+					<td><input style="background-color: red; color: white; border-color: red;" 
+					type="button" value="C" onclick="C()"></td>
+					<td><input
+					type="button" value="/" onclick="inp('/')"></td>
+					<td><input
+					type="button" value="X" onclick="inp('*')"></td>
+			</tr>
+			<tr>
+				<td><input
+					type="button" value="7" onclick="inp(7)"></td>
+					<td><input
+					type="button" value="8" onclick="inp(8)"></td>
+					<td><input
+					type="button" value="9" onclick="inp(9)"></td>
+					<td><input
+					type="button" value="-" onclick="inp('-')"></td>
+					
+			</tr>
+
+			<tr>
+				<td><input
+					type="button" value="4" onclick="inp(4)"></td>
+					<td><input
+					type="button" value="5" onclick="inp(5)"></td>
+					<td><input
+					type="button" value="6" onclick="inp(6)"></td>
+					<td rowspan="2"><input style="height: 180px; padding: 3px 0px; background-color: orange;border-color: orange;" 
+					type="button" value="+" onclick="inp('+')"></td>
+			</tr>
+
+			<tr>
+				<td><input
+					type="button" value="1" onclick="inp(1)"></td>
+					<td><input
+					type="button" value="2" onclick="inp(2)"></td>
+					<td><input
+					type="button" value="3" onclick="inp(3)"></td>
+					
+			</tr>
+			<tr>
+				<td><input
+					type="button" value="0" onclick="inp(0)"></td>
+					<td><input
+					type="button" value="." onclick="inp('.')"></td>
+					<td colspan ="2"><input   style="width:182px; background-color: green; border-color: green;" 
+					type="button" value="=" onclick="equl()"></td>
+			</tr>
+
+
+
+		</table>
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+	<script src="assets/js/jQuery/jquery-3.4.1.min.js"></script>
+</body>
+</html>
